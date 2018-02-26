@@ -103,10 +103,6 @@ hr {
 
 @media (min-width: 992px) {
 
-  .container-collage {
-    margin-top: 4.5rem;
-  }
-
   [data-container ] {
     min-height: 450px;
     background-color: rgba(154,154,154, 0.5);
