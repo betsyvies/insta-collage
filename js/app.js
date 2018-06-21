@@ -54,7 +54,7 @@ $(document).ready(() => {
       console.log(user);
       // Llamamos a la funcion
       saveData(result.user);
-      window.location.assign('views/collage.html');
+      window.location.assign('../views/collage.html');
     });
   }
 
