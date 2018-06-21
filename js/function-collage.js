@@ -15,7 +15,7 @@ window.addEventListener('load', function(event) {
   });
 
   function dragstart(event) {
-    event.dataTransfer.setData('text', event.target.id);
+    event.dataTransfer.setData('text', event.target.src);
   };
 
   function selection(event) {
